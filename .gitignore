@@ -1,0 +1,39 @@
+# Build output folders (standard S32DS configurations)
+Debug/
+Debug_FLASH/
+Debug_RAM/
+Release/
+Release_FLASH/
+Release_RAM/
+build/
+
+# Compiled binaries, object files, and linker artifacts
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.srec
+*.s19
+*.mot
+*.map
+*.lst
+*.a
+*.lib
+
+# Eclipse & S32DS workspace/user-specific metadata
+.metadata/
+.settings/
+.cdtbuild
+.cdtproject
+*.launch
+*.bak
+*.tmp
+
+# S32 Configuration Tools temporary/backup files (keep the main .mex file)
+.default_mex/
+*.mex~
+
+# OS-specific files
+.DS_Store
+Thumbs.db
